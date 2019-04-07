@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+#you:after{
+    content:"Player";
+    display: inline-block;
+    background-color: #017ec6;
+    position: relative;
+    top:-696px;
+    border:1px solid black;
+    width:210px;
+    left:-5px;
+    height: 70px;
+    font-size:45px;
+    text-align: center;
+}
+#computer:after{
+    background-color: #017ec6;
+    content:"Computer";
+    display: inline-block;
+    position: relative;
+    top:-696px;
+    border:1px solid black;
+    width:210px;
+    left:-5px;
+    height: 70px;
+    font-size:45px;
+    text-align: center;
+}
+
+#container{
+    margin:auto;
+    width:1000px;
+    height: 600px;
+    display:flex;
+    justify-content: space-between;
+}
+#comp_score ,#player_score{
+    font-size:100px;
+    text-align: center;
+    line-height: 200px;
+}
+#restart>span{
+    
+    font-size:20px;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    display: inline-block;
+    background-color: greenyellow;
+    border-radius: 50%;
+   // border:1px solid greenyellow;
+    border-top:none;
+    line-height: 1000%;
+}
+#restart>span:hover{
+cursor: pointer;
+}
+#container > div{
+    width:200px;
+    height: 600px; 
+}
+#container > div > div{
+    width:200px;
+    height: 200px;
+}
+#you{
+    display: inline-block;
+    width:200px;
+    height: 600px;
+    position: relative;
+}
+#computer{
+    display: inline-block;
+    width:200px;
+    height: 600px;
+    position: relative;
+}
+.dauhoi{
+background: url("dauhoi.png") no-repeat center;
+background-size: contain;
+}
+#vs{
+background: url("vs.jpg") no-repeat center;
+background-size: contain;
+}
+#R{
+background: url("bua.png") no-repeat center;
+background-size: contain;
+}
+#P{
+    background: url("bao.png") no-repeat center;
+    background-size: contain;
+}
+#S{
+background: url("keo.png") no-repeat center;
+background-size: contain;
+}
+
+#computer_state{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 5vh;
+    background-color: #ea4b53;
+    font-size:20px;
+}
+#start{
+    display: block;
+    margin:auto;
+    width: 500px;
+    height: 100px;
+    margin-bottom:20px;
+    border: 1px solid black;
+    border-radius: 60px;
+    font-size:60px;
+}
+#start:hover{
+cursor: pointer;
+}
+
+#cR,#cP,#cS,#R,#P,#S{
+width:200px;
+height: 200px;
+}
+#R,#P,#S:hover{
+cursor: pointer;
+}
+#R,#cR{
+background: url("bua.png") no-repeat center;
+background-size: contain;
+
+}
+#P,#cP{
+    background: url("bao.png") no-repeat center;
+    background-size: contain;
+}
+#S,#cS{
+background: url("keo.png") no-repeat center;
+background-size: contain;
+}
